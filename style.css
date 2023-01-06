@@ -1,0 +1,363 @@
+body{
+    background-color: black;
+}
+.brandlogo{
+    max-width: 110px;
+}
+.yes{
+    padding: 0 4%;
+}
+.navbar{
+    padding: 0%;
+}
+.your{
+    height: 32px;
+    max-width: 32px;
+    border-radius: 5px;
+}
+.rightnav{
+    padding: 2px 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.fae{
+    font-size: 20px;
+    color: white;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.botte{
+    justify-content: center;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #000000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 4px;
+    text-decoration: none;
+    display: block;
+}
+.raj{
+    padding: 10px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.yam{
+    margin-top: 5px;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+color: gray;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+  }
+
+
+
+.banner{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    padding-top: 8%;
+    margin: 0;
+    width: 40%;
+}
+.banner h1{
+    font-size: 2.5rem;
+    background: linear-gradient(#f32170,#be421c,#cf23cf,#cc6b33);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.banner h3{
+    font-size: 2rem;
+    padding-top: 20px;
+    letter-spacing: 3px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+.banner p{
+    font-size: 1rem;
+    line-height: normal;
+}
+.butup{
+    padding-top: 2rem;
+}
+.btna{
+    padding: 15px;
+    font-size: 1rem;
+    color: black;
+    font-weight: 500;
+    border: none;
+    border-radius: 3px;
+    background-color: white;
+}
+.btn1{
+background-color: rgba(225, 225, 225, 0.5);
+color: white;
+}
+.pay{
+    color: black;
+    margin: 0 5px;
+
+}
+.info{
+    color: white;
+}
+.video-container{
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    z-index: -6;
+    left: 0;
+    top: 0;
+}
+.video-container video{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+.color-overlay{
+    width: 100%;
+    height: 90%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
+.movcow{
+    
+    z-index: -1;
+    padding-top: 20px;
+}
+.asdf{
+    color: white;
+    padding-top: 6%;
+}
+.active .nav-link{
+    font-weight: bold;
+}
+.active .nav-link:hover{
+    color: white;
+}
+
+.foote a > i{
+    font-size:2rem;
+    margin-right: 0.9375rem;
+    color: white;
+}
+.yese{
+    padding: 0 25%;
+}
+.paa{
+    padding-top: 30px;
+}
+.footer-copyright{
+    background-color: rgb(25 24 24);
+    color: gray;
+}
+.footer-copyright a{
+    color: gray;
+}
+.list-unstyled a{
+    color: gray;
+}
+/* .slick-initialized .slick-slide {
+   width: 235px !important;
+} */
+.your-class img{
+    cursor: pointer;
+    transition: transform .2s;
+    width: 266px;
+}
+.your-class img:hover{
+    transform: scale(1.5);
+}
+.sticky {
+    z-index: 10;
+}
+@media (max-width: 992px) {
+    .video-container{
+        height: 70%;
+    }
+    .video-container video{
+        height: 70%;
+    }
+    .color-overlay{
+        height: 70%;
+    }
+    .navbar-nav{
+        display: none;
+    }
+    .your-class img{
+        width: 200px;
+    }
+    
+    .rightnav{
+        margin-left: auto;
+    }
+    .banner{
+        padding-top: 0%;
+        width: 50%;
+    }
+    /* .slick-initialized .slick-slide {
+        width: 200px;
+     } */
+
+}
+ @media (max-width: 650px) {
+    .banner h1{
+        font-size: 2rem;
+    }
+    .your-class img{
+        width: 150px;
+    }
+    .banner h3{
+        font-size: 1rem;
+    }
+    .banner p{
+        font-size: 0.8rem;
+        line-height: normal;
+    }
+   .butup{
+    padding: 0;
+   }
+   .video-container{
+    height: 70%;
+}
+.video-container video{
+    height: 70%;
+}
+.color-overlay{
+    height: 70%;
+}
+   .btna{
+    padding: 0 2px 0 2px;
+    font-size: 1rem;
+    color: black;
+    font-weight: 500;
+    border: none;
+    border-radius: 3px;
+    background-color: white;
+}
+}
+@media only screen and (max-width: 992px) and (orientation:landscape){
+    .video-container{
+        height: 50%;
+        min-height: 300px;
+    }
+    .video-container video{
+        height: 50%;
+        min-height: 300px;
+    }
+    .color-overlay{
+        min-height: 300px;
+        height: 50%;
+    }
+}
+@media only screen and (max-width: 720px) and (orientation:landscape){
+    .video-container{
+        height: 50%;
+        min-height: 300px;
+    }
+    .video-container video{
+        height: 50%;
+        min-height: 300px;
+    }
+    .color-overlay{
+        min-height: 300px;
+        height: 50%;
+    }
+}
+@media (max-width: 464px) {
+    .brandlogo{
+        max-width: 80px;
+    }
+    /* .rightnav {
+        width: 57%;
+    } */
+    .slick-prev {
+        left: -18px;
+    }
+    .slick-next {
+        right: -5px;
+    }
+    .banner h3{
+        padding: 0%;
+        letter-spacing: 1px;
+        display: none;
+    }
+    .banner h1{
+        padding-top: 14%;
+        font-size: 2rem;
+    }
+    .banner{
+        padding-top: 20%;
+        width: 100%;
+        text-align: center;
+    }
+    .video-container{
+        height: 50%;
+        min-height: 200px;
+    }
+    .video-container video{
+        height: 50%;
+        min-height: 200px;
+    }
+    .color-overlay{
+        min-height: 200px;
+        height: 50%;
+    }
+    .asdf1{
+        font-size: 1.2rem;
+    }
+    .asdf{
+        padding-top: 8%;
+    }
+    .banner p{
+        padding-top: 3%;
+    }
+    .butup {
+        padding-top: 8%;
+        padding-bottom: 26%;
+    }
+    .btna {
+        padding: 3px 10px 3px 17px;
+    }
+    .btn1 {
+        margin-left: 30px;
+    }
+    .yese{
+        padding: 0 5%;
+    }
+}
+@media (max-width: 330px) {
+    .your-class img{
+        width: 100px;
+    }
+}
